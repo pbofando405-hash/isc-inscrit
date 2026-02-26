@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f4f6f9;
+    background-image: url("Bienvenue.jpg");
 }
 
 header {
@@ -92,3 +93,4 @@ footer {
     padding: 10px;
     border: 1px solid #ccc;
 }
+
