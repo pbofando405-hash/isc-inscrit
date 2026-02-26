@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Inscription Étudiant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Formulaire d'Inscription</h1>
+<nav>
+ <a href="index.html">Accueil</a>
+        <a href="inscription.html">Inscription</a>
+        <a href="etudiants.html">Étudiants</a>
+        <a href="apropos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<div class="form-container">
+<form id="studentForm">
+
+<input type="hidden" id="editIndex">
+
+<input type="text" id="nom" placeholder="Nom" required>
+<input type="text" id="postnom" placeholder="Postnom" required>
+<input type="text" id="prenom" placeholder="Prénom" required>
+
+<select id="sexe" required>
+<option value="">Sexe</option>
+<option>Masculin</option>
+<option>Féminin</option>
+</select>
+
+<input type="text" id="filiere" placeholder="Filière" required>
+<input type="text" id="departement" placeholder="Département" required>
+<input type="tel" id="telephone" placeholder="Téléphone" required>
+<input type="email" id="email" placeholder="Email" required>
+
+<button type="submit" class="btn">Envoyer</button>
+<button type="reset" class="btn-danger">Supprimer</button>
+
+</form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
